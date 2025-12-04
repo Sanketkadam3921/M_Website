@@ -106,7 +106,7 @@ export default function TreatmentCard({ title, description, image }) {
             alignSelf: "flex-start",
             color: "#155DFC",
             textTransform: "none",
-            fontWeight: 600,
+            fontWeight: 300,
             fontSize: { xs: "0.85rem", sm: "0.9rem", md: "1rem" },
             px: 0,
             mt: "auto",

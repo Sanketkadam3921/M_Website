@@ -29,8 +29,18 @@ export default function Footer() {
         width: "100%",
         backgroundColor: "#e9eef6",
         color: "#1a1a1a",
-        pt: { xs: 4, sm: 5, md: 6, lg: 8, xl: 10 }, // CONTROL PADDING TOP
-        pb: { xs: 3, sm: 4, md: 5, lg: 6, xl: 8 }, // CONTROL PADDING BOTTOM
+
+        // TOP padding
+        pt: { xs: 4, sm: 5, md: 6, lg: 8, xl: 10 },
+
+        // BOTTOM padding
+        pb: { xs: 3, sm: 4, md: 5, lg: 6, xl: 8 },
+
+        // ⭐ LEFT padding
+        pl: { xs: 2, sm: 3, md: 4, lg: 6, xl: 10 },
+
+        // ⭐ RIGHT padding
+        pr: { xs: 5, sm: 3, md: 4, lg: 6, xl: 10 },
       }}
     >
       <Container maxWidth="xl">

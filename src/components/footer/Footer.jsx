@@ -49,7 +49,7 @@ export default function Footer() {
           spacing={{
             xs: 9, // Mobile
             sm: 19, // iPad Mini
-            md: 7, // iPad Air
+            md: 6, // iPad Air
             lg: 12, // iPad Pro / Laptop
             xl: 18, // Large desktop
           }}

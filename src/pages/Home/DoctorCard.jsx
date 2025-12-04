@@ -64,7 +64,7 @@ export default function DoctorCard({ name, specialty, image }) {
           variant="h5"
           sx={{
             fontFamily: "Poppins, sans-serif",
-            fontWeight: 700,
+            fontWeight: 500,
             fontSize: {
               xs: "1.2rem",
               sm: "1.3rem",
@@ -81,7 +81,7 @@ export default function DoctorCard({ name, specialty, image }) {
             fontFamily: "Poppins, sans-serif",
             color: "#155DFC",
             fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" },
-            fontWeight: 500,
+            fontWeight: 400,
           }}
         >
           {specialty}

@@ -69,7 +69,7 @@ export default function TreatmentCard({ title, description, image }) {
           variant="h5"
           sx={{
             fontFamily: "Poppins, sans-serif",
-            fontWeight: 700,
+            fontWeight: 500,
             fontSize: {
               xs: "1.2rem",
               sm: "1.3rem",

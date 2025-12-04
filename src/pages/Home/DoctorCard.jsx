@@ -21,14 +21,14 @@ export default function DoctorCard({ name, specialty, image }) {
         mx: "auto",
         display: "flex",
         flexDirection: "column",
-        borderRadius: "12px",
+        borderRadius: "12px 12px 0 0",
         overflow: "hidden",
         backgroundColor: "#ffffffff",
         boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
         transition: "0.3s ease",
         "&:hover": {
           transform: "translateY(-8px)",
-          boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
+          boxShadow: "0 8px 24px rgba(96, 183, 255, 0.12)",
         },
       }}
     >

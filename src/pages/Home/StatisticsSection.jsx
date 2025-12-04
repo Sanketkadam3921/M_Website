@@ -39,7 +39,7 @@ export default function StatisticsSection() {
       <Container maxWidth="xl">
         <Grid
           container
-          spacing={{ xs: 3, sm: 4, md: 6, lg: 33 }}
+          spacing={{ xs: 3, sm: 4, md: 6, lg: 4, xl: 33 }}
           justifyContent="center"
         >
           {stats.map((stat, index) => (

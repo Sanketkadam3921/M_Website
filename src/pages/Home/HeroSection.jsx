@@ -133,6 +133,7 @@ export default function HeroSection() {
                   py: 1.5,
                   fontSize: { xs: "0.9rem", sm: "1rem" },
                   backgroundColor: "#155DFC",
+                  minWidth: { xs: "100%", sm: "200px" },
                   "&:hover": {
                     backgroundColor: "#155DFC",
                   },
@@ -151,6 +152,7 @@ export default function HeroSection() {
                   fontSize: { xs: "0.9rem", sm: "1rem" },
                   borderColor: "#155DFC",
                   color: "#155DFC",
+                  minWidth: { xs: "100%", sm: "200px" },
                   "&:hover": {
                     borderColor: "#155DFC",
                     backgroundColor: "rgba(21, 93, 252, 0.04)",

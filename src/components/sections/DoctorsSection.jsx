@@ -1,0 +1,1 @@
+// DoctorsSection component skeleton

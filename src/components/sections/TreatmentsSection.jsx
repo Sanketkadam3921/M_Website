@@ -1,0 +1,1 @@
+// TreatmentsSection component skeleton

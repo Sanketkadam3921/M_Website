@@ -1,0 +1,107 @@
+/* ============================
+   NAVBAR GLOBAL STYLES
+   ============================ */
+
+.navbar-container {
+  background-color: #ffffff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 75px; /* mobile default */
+}
+
+/* Logo */
+.navbar-logo {
+  text-decoration: none;
+  color: #1976d2;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* Desktop Menu Container */
+.navbar-links {
+  display: none;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Individual buttons */
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* Mobile Menu Icon */
+.navbar-menu-icon {
+  color: #1976d2;
+}
+
+/* ============================
+   RESPONSIVE BREAKPOINTS
+   ============================ */
+
+/* iPad Mini (sm: ≥600px) */
+@media (min-width: 600px) {
+  .navbar-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 70px;
+  }
+
+  .navbar-logo {
+    font-size: 1.4rem;
+  }
+}
+
+/* iPad Air (md: ≥900px) */
+@media (min-width: 900px) {
+  .navbar-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 75px;
+  }
+
+  /* Show desktop menu */
+  .navbar-links {
+    display: flex;
+  }
+
+  /* Hide mobile menu icon */
+  .navbar-menu-icon {
+    display: none !important;
+  }
+
+  .navbar-link {
+    font-size: 1rem;
+  }
+}
+
+/* iPad Pro (lg: ≥1200px) */
+@media (min-width: 1200px) {
+  .navbar-container {
+    padding-left: 64px;
+    padding-right: 64px;
+    height: 80px;
+  }
+
+  .navbar-logo {
+    font-size: 1.7rem;
+  }
+
+  .navbar-link {
+    font-size: 1.05rem;
+  }
+}
+
+/* Large Laptops / Desktop (xl: ≥1536px) */
+@media (min-width: 1536px) {
+  .navbar-container {
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+}

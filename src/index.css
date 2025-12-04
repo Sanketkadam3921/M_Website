@@ -1,0 +1,104 @@
+/* Global Styles */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+// import { useState } from "react";
+
+// function App() {
+//   const [amount, setAmount] = useState(500);
+
+//   const payNow = async () => {
+//     try {
+//       const orderResponse = await fetch("http://localhost:5000/create-order", {
+//         method: "POST",
+//         headers: { "Content-Type": "application/json" },
+//         body: JSON.stringify({ amount }),
+//       });
+
+//       const orderData = await orderResponse.json();
+
+//       // Extract order from response data
+//       const order = orderData.data || orderData;
+
+//       if (!order || !order.id) {
+//         alert("Failed to create order. Please try again.");
+//         return;
+//       }
+
+//       const options = {
+//         key: "rzp_test_Rmcxri4JBDSGKN",
+//         amount: order.amount, // Amount in paise
+//         currency: "INR",
+//         order_id: order.id, // Use order.id from Razorpay response
+//         name: "Clinic Test Payment",
+//         description: "Test Transaction",
+//         handler: async function (response) {
+//           // Razorpay response contains: razorpay_order_id, razorpay_payment_id, razorpay_signature
+//           try {
+//             const verifyResponse = await fetch("http://localhost:5000/verify-payment", {
+//               method: "POST",
+//               headers: { "Content-Type": "application/json" },
+//               body: JSON.stringify({
+//                 razorpay_order_id: response.razorpay_order_id,
+//                 razorpay_payment_id: response.razorpay_payment_id,
+//                 razorpay_signature: response.razorpay_signature,
+//               }),
+//             });
+
+//             const verify = await verifyResponse.json();
+
+//             if (verify.success) {
+//               alert("Payment Success! ✅");
+//             } else {
+//               alert("Payment Verification Failed! ❌\n" + (verify.message || "Unknown error"));
+//             }
+//           } catch (error) {
+//             console.error("Verification error:", error);
+//             alert("Error verifying payment. Please contact support.");
+//           }
+//         },
+//         prefill: {
+//           name: "Test User",
+//           email: "test@example.com",
+//           contact: "9999999999",
+//         },
+//         theme: {
+//           color: "#3399cc",
+//         },
+//       };
+
+//       const rzp = new window.Razorpay(options);
+//       rzp.open();
+//     } catch (error) {
+//       console.error("Payment error:", error);
+//       alert("Failed to initiate payment. Please try again.");
+//     }
+//   };
+
+//   return (
+//     <div style={{ padding: 50 }}>
+//       <h1>Razorpay Test Payment</h1>
+
+//       <input
+//         type="number"
+//         value={amount}
+//         onChange={(e) => setAmount(e.target.value)}
+//         style={{ padding: 10, marginRight: 10 }}
+//       />
+
+//       <button onClick={payNow} style={{ padding: "10px 20px" }}>
+//         Pay Now
+//       </button>
+//     </div>
+//   );
+// }
+
+// export default App; */
